@@ -1,5 +1,9 @@
 # IMDb-Reviews-Sentiment-Classification
 
+Project Link: https://lopsided-stinger-061.notion.site/NLP-Project-Assignment-Text-Classification-2ce8e79860b646608533427cb5b17459
+
+
+
 
 IMDb-Reviews-Sentiment-Classification
 Introduction
@@ -19,6 +23,7 @@ To utilize the trained sentiment analysis model for classifying new IMDb reviews
 Load the Trained Model: Initially, load the trained Logistic Regression model. This step typically involves loading the model from a serialized file format, such as a .pkl (Pickle) file, which stores the trained model parameters.
 
 Prepare the Review Text for Classification: Before making predictions, it's essential to preprocess the new review text to match the format expected by the model. This preprocessing step includes tokenizing the text and transforming it using the same TF-IDF vectorizer applied during the training phase. Ensure that the text is cleaned and tokenized in the same manner as the training data to maintain consistency.
+
 
 Classify the Sentiment of the Review: With the model loaded and the review text appropriately preprocessed, you can now classify the sentiment of the review. The model will output a sentiment prediction, indicating whether the review is positive or negative.
 
